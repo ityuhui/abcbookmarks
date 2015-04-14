@@ -17,6 +17,6 @@ create table ab_bookmark (
 insert into ab_category (description) values ("digital and technic");
 insert into ab_category (description) values ("work");
 
-insert into ab_bookmark (description,url,category_id,priority) values ("cnbeta","www.cnbeta.com",1,10);
-insert into ab_bookmark (description,url,category_id,priority) values ("pconline","www.pconline.com.cn",1,10);
+insert into ab_bookmark (description,url,category_id,priority) values ("cnbeta","http://www.cnbeta.com",1,10);
+insert into ab_bookmark (description,url,category_id,priority) values ("pconline","http://www.pconline.com.cn",1,10);
 	
