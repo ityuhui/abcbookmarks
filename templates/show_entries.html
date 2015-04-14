@@ -13,7 +13,7 @@
   {% endif %}
   <ul class="entries">
   {% for entry in entries %}
-    <li><h2>{{ entry.description }}</h2><a href="{{ entry.url|safe }}">{{ entry.url|safe }}</a>
+    <li><a href="{{ entry.url|safe }}" target="_blank">{{ entry.description }}</a>
   {% else %}
     <li><em>Unbelievable.  No entries here so far</em>
   {% endfor %}
